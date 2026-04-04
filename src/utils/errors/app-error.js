@@ -2,13 +2,13 @@ class AppError extends Error{
     constructor(
         name,
         message,
-        explanantion,
+        explanation,
         statusCode
     ){
         super();
         this.name = name,
         this.message = message,
-        this.explanantion = explanantion,
+        this.explanation = explanation,
         this.statusCode = statusCode
     }
 }
