@@ -8,8 +8,7 @@ const {PORT, FLIGHT_SERVICE_PATH} = require('./config/serverConfig');
 const apiRoutes = require('./routes/index');
 const db = require('./models/index')
 
-const password = "123456";
-console.log(password)
+const x=11;
 
 const setupAndStartServer = () =>{
 
